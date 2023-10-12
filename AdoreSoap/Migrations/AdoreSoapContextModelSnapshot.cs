@@ -38,6 +38,9 @@ namespace AdoreSoap.Migrations
                     b.Property<string>("Purpose")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Rating")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("ReleaseDate")
                         .HasColumnType("datetime2");
 

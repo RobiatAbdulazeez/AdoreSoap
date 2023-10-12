@@ -21,13 +21,14 @@ namespace AdoreSoap.Models
                 }
                 context.Adore.AddRange(
                     new Adore
-                    {
+                    {//characteristics of my products
                         Name = "Lush",
                         ReleaseDate = DateTime.Parse("2020-5-7"),
                         Color = "Pink",
                         Purpose = "Body",
                         Type="Bar",
-                        Price = 3.99M
+                        Price = 3.99M,
+                        Rating =5
                         
 
                     },
@@ -38,8 +39,8 @@ namespace AdoreSoap.Models
                          Color = "White",
                          Purpose = "Body",
                          Type = "Bar",
-                         Price = 7.99M
-                         
+                         Price = 7.99M,
+                         Rating = 5
 
                      },
                       new Adore
@@ -49,8 +50,8 @@ namespace AdoreSoap.Models
                           Color = "peach",
                           Purpose = "Face",
                           Type = "Wash",
-                          Price = 1.99M
-                          
+                          Price = 1.99M,
+                          Rating = 5
 
                       },
                        new Adore
@@ -60,8 +61,8 @@ namespace AdoreSoap.Models
                            Color = "Pink",
                            Purpose = "Body",
                            Type = "Bar",
-                           Price = 2.99M
-                           
+                           Price = 2.99M,
+                           Rating = 5
 
                        },
                         new Adore
@@ -71,8 +72,8 @@ namespace AdoreSoap.Models
                             Color = "Orange",
                             Purpose = "Body",
                             Type = "Bar",
-                            Price = 1.99M
-                            
+                            Price = 1.99M,
+                            Rating = 5
 
                         },
                          new Adore
@@ -82,8 +83,8 @@ namespace AdoreSoap.Models
                              Color = "White",
                              Purpose = "Body",
                              Type = "Bar",
-                             Price = 3.99M
-                            
+                             Price = 3.99M,
+                            Rating = 5
 
                          },
                           new Adore
@@ -93,8 +94,8 @@ namespace AdoreSoap.Models
                               Color = "Brown",
                               Purpose = "Body",
                               Type = "Bar",
-                              Price = 2.99M
-                              
+                              Price = 2.99M,
+                              Rating = 5
 
                           },
                            new Adore
@@ -104,8 +105,8 @@ namespace AdoreSoap.Models
                                Color = "Yellow",
                                Purpose = "Body",
                                Type = "Wash",
-                               Price = 1.99M
-                              
+                               Price = 1.99M,
+                              Rating = 5
 
                            },
                             new Adore
@@ -115,8 +116,8 @@ namespace AdoreSoap.Models
                                 Color = "Wash",
                                 Purpose = "Body",
                                 Type = "Bar",
-                                Price = 2.99M
-                               
+                                Price = 2.99M,
+                               Rating = 5
 
                             },
                              new Adore
@@ -126,8 +127,8 @@ namespace AdoreSoap.Models
                                  Color = "White",
                                  Purpose = "Body",
                                  Type = "Bar",
-                                 Price = 7.99M
-                                 
+                                 Price = 7.99M,
+                                 Rating = 5
                              }
                               );
                 context.SaveChanges();
