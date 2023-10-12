@@ -24,10 +24,32 @@ a {
   border-color: #1861ac;
 }
 
+
+
+@font-face {
+    font-family: 'o';
+    src: url('f') format('woff2'), url('path/to/your/font.woff') format('woff');
+    /* Include other font formats if necessary */
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+   
+    font-family: 'Onest', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+//font-family: 'Open Sans', sans-serif;
+
+.text-center img {
+    width: 100%;
+    height: auto;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 @media (min-width: 768px) {
   html {
