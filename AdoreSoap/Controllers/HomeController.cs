@@ -20,14 +20,23 @@ namespace AdoreSoap.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View();//returns the contents that appears on the home page 
         }
 
         public IActionResult Privacy()
         {
-            return View();
+            return View(); //returns the contents that appears on the privacy page 
         }
 
+        public IActionResult AboutUs()
+        {
+            return View(); //goes through the AboutUs Content under the vires and returns it using this method
+        }
+
+        public IActionResult ProductCatelogue()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
