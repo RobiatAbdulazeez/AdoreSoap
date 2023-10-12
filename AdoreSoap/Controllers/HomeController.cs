@@ -25,7 +25,7 @@ namespace AdoreSoap.Controllers
 
         public IActionResult Privacy()
         {
-            return View(); //returns the contents that appears on the privacy page 
+            return View();//returns the contents that appears on the privacy page 
         }
 
         public IActionResult AboutUs()

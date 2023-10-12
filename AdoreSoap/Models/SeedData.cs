@@ -29,6 +29,7 @@ namespace AdoreSoap.Models
                         Type="Bar",
                         Price = 3.99M
                         
+
                     },
                      new Adore
                      {
@@ -38,87 +39,95 @@ namespace AdoreSoap.Models
                          Purpose = "Body",
                          Type = "Bar",
                          Price = 7.99M
+                         
 
                      },
                       new Adore
                       {
                           Name = "Forever young",
-                          ReleaseDate = DateTime.Parse("2020-5-7"),
+                          ReleaseDate = DateTime.Parse("2020-8-12"),
                           Color = "peach",
                           Purpose = "Face",
                           Type = "Wash",
                           Price = 1.99M
+                          
 
                       },
                        new Adore
                        {
                            Name = "Fresh",
-                           ReleaseDate = DateTime.Parse("2020-5-7"),
+                           ReleaseDate = DateTime.Parse("2020-9-7"),
                            Color = "Pink",
                            Purpose = "Body",
                            Type = "Bar",
-                           Price = 7.99M
+                           Price = 2.99M
+                           
 
                        },
                         new Adore
                         {
-                            Name = "When Harry Met Sally",
+                            Name = "Flawless",
                             ReleaseDate = DateTime.Parse("2020-5-7"),
-                            Color = "Pink",
+                            Color = "Orange",
                             Purpose = "Body",
                             Type = "Bar",
-                            Price = 7.99M
+                            Price = 1.99M
+                            
 
                         },
                          new Adore
                          {
-                             Name = "When Harry Met Sally",
-                             ReleaseDate = DateTime.Parse("2020-5-7"),
-                             Color = "Pink",
+                             Name = "Spot Removal",
+                             ReleaseDate = DateTime.Parse("2020-5-25"),
+                             Color = "White",
                              Purpose = "Body",
                              Type = "Bar",
-                             Price = 7.99M
+                             Price = 3.99M
+                            
 
                          },
                           new Adore
                           {
-                              Name = "When Harry Met Sally",
+                              Name = "Sooth Skin",
                               ReleaseDate = DateTime.Parse("2020-5-7"),
-                              Color = "Pink",
+                              Color = "Brown",
                               Purpose = "Body",
                               Type = "Bar",
-                              Price = 7.99M
+                              Price = 2.99M
+                              
 
                           },
                            new Adore
                            {
-                               Name = "When Harry Met Sally",
+                               Name = "Clear",
                                ReleaseDate = DateTime.Parse("2020-5-7"),
-                               Color = "Pink",
+                               Color = "Yellow",
                                Purpose = "Body",
-                               Type = "Bar",
-                               Price = 7.99M
+                               Type = "Wash",
+                               Price = 1.99M
+                              
 
                            },
                             new Adore
                             {
-                                Name = "When Harry Met Sally",
-                                ReleaseDate = DateTime.Parse("2020-5-7"),
-                                Color = "Pink",
+                                Name = "Beautiful You",
+                                ReleaseDate = DateTime.Parse("2020-8-7"),
+                                Color = "Wash",
                                 Purpose = "Body",
                                 Type = "Bar",
-                                Price = 7.99M
+                                Price = 2.99M
+                               
 
                             },
                              new Adore
                              {
-                                 Name = "When Harry Met Sally",
+                                 Name = "Goodbye To Wrinkles",
                                  ReleaseDate = DateTime.Parse("2020-5-7"),
-                                 Color = "Pink",
+                                 Color = "White",
                                  Purpose = "Body",
                                  Type = "Bar",
                                  Price = 7.99M
-
+                                 
                              }
                               );
                 context.SaveChanges();
