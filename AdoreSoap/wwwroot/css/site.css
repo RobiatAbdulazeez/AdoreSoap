@@ -25,13 +25,6 @@ a {
 }
 
 
-
-@font-face {
-    font-family: 'o';
-    src: url('f') format('woff2'), url('path/to/your/font.woff') format('woff');
-    /* Include other font formats if necessary */
-    font-weight: normal;
-    font-style: normal;
 }
 body {
    
@@ -39,13 +32,21 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-//font-family: 'Open Sans', sans-serif;
-
+/* Index Page  styles
+-------------------------------------------------- */
 .text-center img {
-    width: 100%;
-    height: auto;
+   
+    max-width:100%;
+    height:auto
+        
 }
+.text-center body {
+    font-family: 'Onest', sans-serif;
+}
+.container {
+    
 
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
