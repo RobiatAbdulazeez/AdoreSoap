@@ -175,6 +175,21 @@ yayy it worked
 10:45
 I will just take a break and continue later...
 
+2023-10-13
+11:05
+i decided to round up but i received an error i am denied access to the database
+i decided to rin the add migration command and update  the database again the command i used was
+Add-Migration InitialCreate
+Update-Database
 
+11:08
+My Application is working perfectly!!!
 
+12:16
+I added more contents to my product catelogue page and also included some pictures on soap on the page 
+I also added some styles to my site.css to syle and adjust the sizes of the images i have on the web page
+
+1:45
+I created a README.md file in my Github and it is preventing me from making some changes
+I tried to delete the file but it has refused to delete
 
