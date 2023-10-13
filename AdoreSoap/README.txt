@@ -86,4 +86,88 @@ proceeded to downloading licence free images to use for my projects
 created a folder in my wwwroot which is for my images and i transferred my downloaded images to the folder 
 
 7:42
-I started with my models,created a new .cs file for my project which is Adore.cs and i added my soap attributes 
+I started with my models,created a new .cs file for my project which is Adore.cs in the models folder and i added my
+soap attributes and also included the comments for better understandings
+
+7:46
+Added the Nuget Packages,this was done in the Nuget Package Manager Console Under the tools because we are using 
+the 3.1 .Net Application version we have to download a package that is compatible with our Application
+Microsoft.EntityFrameworkCore.SqlServer (3.0.1)version was downloaded because this will work perfectly for my
+Application
+
+7:53
+After the NuGet Package has been downloaded i created a data folder in my Adore Soap project
+in My data folder i created a .cs Context folder the AdoreSoapContext.cs and added some lines of Code
+then proceeded to register the database context in my startup.cs
+
+7:56
+i went to my appsettings.json file to add the AdoreSoapContext as part of the connection to the database
+
+8:00
+Time To scaffold my Adore Soap Page Under the Controller i added a new Scaffolding item using my Model class and data
+context class name for my project
+
+8:05
+I ran the Add-Migration InitialCreate
+Update-Database command in my Package Management Console,App was tested and it was working Perfectly
+Went through the content of the controller that was generated for me after the scaffolding
+
+8:15
+went ahead to seed my database,adding product items to the database
+also i went through the sql table under the view folder to see if my database was created properly
+i also added a seed initializer in my program.cs file
+i also remenbered the instruction told us to add an extra firld which is for rating so i ran the
+I ran the Add-Migration Rating and it was successfully added
+
+8:20
+I proceeded to add a new field which was rating made some changes in my create,delete,details,edit and index,cshtml file to 
+add this new product property
+Also made some changes in my Adore.cs under my models to include this property
+in my AdoresControlle.cs i added this property in the bind for the create 
+i ran my code and i got errors
+
+8:30
+i already added the Migration Rating it already exist in the database
+i tried to change the name of the property from Rating to ProductRating but it was still not taking the name
+still getting errors
+
+9:30
+Still getting the errors,i shouldn't have created the Rating before adding the properties
+i went to my solution folder to look for where the rating migration is Added
+
+9:32
+Found it under the Migration,so i am going to take it out of the project and go over the steps again this time,doing it the proper
+way.
+
+9:35
+IT IS WORKING!!! I AM A GENIUS!!!
+
+9:40
+My Edit button is working but not displaying the value of rating on my page
+what could have gone wrong!
+
+9:43
+I went through my steps again 
+FOUND!!!
+I didnt bind my Rating to the Edit Function in my AdoresController.cs
+ Edit(int id, [Bind("Id,Name,ReleaseDate,Color,Purpose,Type,Price")]
+ Added the Rating and run the Application
+Everything is working Perfectly
+
+9:50
+I added validations to my Adore.cs to specify what i want in the fields provided
+and to let users know the values that could be enetered this is to avoid GIGO
+also i added the rating range of 1-5 if the user enters a number that is greater than 5 it will display a message
+stating that the numbers within the range of 1-5 can only be entered
+
+9:53
+My RealeaseDate was written together so i displayed it in a better way by adding the space in between which
+makes reading really easy
+
+10:30
+Added more images to my Images folder and created a font folder to change My Page Layout
+
+10:35
+having issues with my Css it is not displaying it the way i wanted it to work
+
+

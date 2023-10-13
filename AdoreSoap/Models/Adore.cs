@@ -8,18 +8,18 @@ namespace AdoreSoap.Models
 
          public int Id { get; set; }
         [Required]//the name cannot be left bank
-        public string Name { get; set; }
+        public string Name { get; set; } //name of the soap this attribute has the get and set properties
 
         [DataType(DataType.Date)]
-        [Display(Name = "Release Date")]
-        public DateTime ReleaseDate { get; set; }
+        [Display(Name = "Release Date")]   //the initial name was ReleaseDate but this is not readable that was why the display function is used to correct this
+        public DateTime ReleaseDate { get; set; } //product release date
         public string Color { get; set; }
 
         [Required]//the purpose space cannot be left blank
-        public string Purpose { get; set; }
-        public string Type { get; set; }
+        public string Purpose { get; set; }  //purpose of the soap which also has the  get and set properties
+        public string Type { get; set; }     //type attribute which describes if it is bar,wash or lotion
 
-        [Range(1, 100)]
+        [Range(1, 100)]             //Range of numbers for this particular property
         [DataType(DataType.Currency)]
         public decimal Price { get; set; }
 
