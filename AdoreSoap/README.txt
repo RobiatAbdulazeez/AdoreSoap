@@ -185,6 +185,9 @@ Update-Database
 11:08
 My Application is working perfectly!!!
 
+12:16
+I added more contents to my product catelogue page and also included some pictures on soap on the page 
+I also added some styles to my site.css to syle and adjust the sizes of the images i have on the web page
 
 
 
