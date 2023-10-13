@@ -1,0 +1,13 @@
+"For my project, I was tasked with conducting research on the product SOAP. This involved analyzing competitors' websites, studying the product attributes, and understanding its properties. To initiate this process,
+I meticulously examined various soap websites, extracting valuable insights for my application. Once I gathered this essential information, I proceeded to define the desired properties and attributes for my soap application.
+
+Additionally, I carefully chose the brand name 'Adore Soap,' serving as the foundation for my application. I developed the application using ASP.NET Core version 3.1, despite its outdated status, and employed Microsoft Visual Studio
+Code (2019) as my primary development tool. To ensure the security of my work and enable seamless collaboration, I integrated my GitHub Account with the project, allowing for efficient version control and future reference."
+Starting off, I built a controller to manage database interactions and then moved on to create user-friendly views. I designed a product catalog page and an 'About Us' section, adding visuals and detailed information for a better user experience.
+
+Next, I introduced models to organize the project structure. After that, I structured the application using scaffolding and added initial data (seed data) defining product properties and attributes. This step aimed to provide users with a clear
+understanding of the available products.
+
+For user input, I implemented validation rules, ensuring data accuracy. I also focused on the visual aspects, customizing fonts, and enhancing the overall layout with CSS styles. These efforts were aimed at creating a seamless and visually appealing interface.
+
+Every step was taken with the goal of making the application both functional and user-friendly, ensuring a smooth experience for anyone interacting with it
