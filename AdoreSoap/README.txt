@@ -173,7 +173,7 @@ i found the bootstap library and the css properties i could change
 yayy it worked
 
 10:45
-I will just take a break and continue later
+I will just take a break and continue later...
 
 
 
