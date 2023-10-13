@@ -168,6 +168,13 @@ makes reading really easy
 Added more images to my Images folder and created a font folder to change My Page Layout
 
 10:35
-having issues with my Css it is not displaying it the way i wanted it to work
+having issues with my Css it is not displaying it the way i wanted it to work.
+i found the bootstap library and the css properties i could change
+yayy it worked
+
+10:45
+I will just take a break and continue later
+
+
 
 
