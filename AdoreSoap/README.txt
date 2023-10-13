@@ -189,6 +189,7 @@ My Application is working perfectly!!!
 I added more contents to my product catelogue page and also included some pictures on soap on the page 
 I also added some styles to my site.css to syle and adjust the sizes of the images i have on the web page
 
-
-
+1:45
+I created a README.md file in my Github and it is preventing me from making some changes
+I tried to delete the file but it has refused to delete
 
